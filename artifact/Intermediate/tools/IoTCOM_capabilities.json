@@ -1,0 +1,530 @@
+{
+    "accelerationSensor": {
+        "acceleration": [
+            "active",
+            "inactive"
+        ]
+    },
+    "activityLightingMode": {
+        "lightingMode": [
+            "reading",
+            "writing",
+            "computer",
+            "night"
+        ]
+    },
+    "airConditionerMode": {
+        "airConditionerMode": [
+            "auto",
+            "cool",
+            "dry",
+            "coolClean",
+            "dryClean",
+            "fanOnly",
+            "heat",
+            "heatClean",
+            "notSupported"
+        ]
+    },
+    "airQualitySensor": {
+        "airQuality": []
+    },
+    "alarm": {
+        "alarm": [
+            "both",
+            "off",
+            "siren",
+            "strobe"
+        ]
+    },
+    "app": {
+        "app": [
+            "appTouch",
+            "appTouch_Not"
+        ]
+    },
+    "audioMute": {
+        "mute": [
+            "muted",
+            "unmuted"
+        ]
+    },
+    "audioVolume": {
+        "volume": []
+    },
+    "battery": {
+        "battery": []
+    },
+    "button": {
+        "button": [
+            "pushed",
+            "held",
+            "double",
+            "pushed_2x",
+            "pushed_3x",
+            "pushed_4x",
+            "pushed_5x",
+            "pushed_6x",
+            "down",
+            "down_2x",
+            "down_3x",
+            "down_4x",
+            "down_5x",
+            "down_6x",
+            "down_hold",
+            "up",
+            "up_2x",
+            "up_3x",
+            "up_4x",
+            "up_5x",
+            "up_6x",
+            "up_hold"
+        ],
+        "numberOfButtons": [],
+        "supportedButtonValues": []
+    },
+    "carbonDioxideMeasurement": {
+        "carbonDioxide": []
+    },
+    "carbonMonoxideDetector": {
+        "carbonMonoxide": [
+            "clear",
+            "detected"
+        ]
+    },
+    "carbonMonoxideMeasurement": {
+        "carbonMonoxideLevel": []
+    },
+    "colorControl": {
+        "color": [],
+        "hue": [],
+        "saturation": []
+    },
+    "colorTemperature": {
+        "colorTemperature": []
+    },
+    "contactSensor": {
+        "contact": [
+            "closed",
+            "open"
+        ]
+    },
+    "dishwasherMode": {
+        "dishwasherMode": [
+            "auto",
+            "quick",
+            "rinse",
+            "dry"
+        ]
+    },
+    "dishwasherOperatingState": {
+        "machineState": [
+            "pause",
+            "run",
+            "stop"
+        ],
+        "supportedMachineStates": [],
+        "dishwasherJobState": [
+            "airwash",
+            "cooling",
+            "drying",
+            "finish",
+            "preDrain",
+            "prewash",
+            "rinse",
+            "spin",
+            "unknown",
+            "wash",
+            "wrinklePrevent"
+        ],
+        "completionTime": []
+    },
+    "doorControl": {
+        "door": [
+            "close",
+            "open"
+        ]
+    },
+    "dryerMode": {
+        "dryerMode": [
+            "regular",
+            "lowHeat",
+            "highHeat"
+        ]
+    },
+    "dryerOperatingState": {
+        "machineState": [
+            "pause",
+            "run",
+            "stop"
+        ],
+        "supportedMachineStates": [],
+        "dryerJobState": [
+            "cooling",
+            "delayWash",
+            "drying",
+            "finished",
+            "none",
+            "weightSensing",
+            "wrinklePrevent"
+        ],
+        "completionTime": []
+    },
+    "dustSensor": {
+        "fineDustLevel": [],
+        "dustLevel": []
+    },
+    "energyMeter": {
+        "energy": []
+    },
+    "equivalentCarbonDioxideMeasurement": {
+        "equivalentCarbonDioxideMeasurement": []
+    },
+    "fanSpeed": {
+        "fanSpeed": []
+    },
+    "filterStatus": {
+        "filterStatus": [
+            "normal",
+            "replace"
+        ]
+    },
+    "formaldehydeMeasurement": {
+        "formaldehydeLevel": []
+    },
+    "garageDoorControl": {
+        "door": [
+            "closed",
+            "closing",
+            "open",
+            "opening",
+            "unknown"
+        ]
+    },
+    "illuminanceMeasurement": {
+        "illuminance": []
+    },
+    "imageCapture": {
+        "image": []
+    },
+    "infraredLevel": {
+        "infraredLevel": []
+    },
+    "location": {
+        "mode": [
+            "Home",
+            "Away",
+            "Night",
+            "Vacation"
+        ]
+    },
+    "lock": {
+        "lock": [
+            "locked",
+            "unlocked"
+        ]
+    },
+    "mediaInputSource": {
+        "inputSource": [
+            "AM",
+            "CD",
+            "FM",
+            "HDMI",
+            "HDMI2",
+            "USB",
+            "YouTube",
+            "aux",
+            "bluetooth",
+            "digital",
+            "melon",
+            "wifi"
+        ],
+        "supportedInputSources": []
+    },
+    "mediaPlayback": {
+        "playbackStatus": [
+            "pause",
+            "play",
+            "stop",
+            "fast_forward",
+            "rewind"
+        ],
+        "supportedPlaybackCommands": []
+    },
+    "mediaPlaybackRepeat": {
+        "playbackRepeatMode": [
+            "all",
+            "off",
+            "one"
+        ]
+    },
+    "mediaPlaybackShuffle": {
+        "playbackShuffle": [
+            "disabled",
+            "enabled"
+        ]
+    },
+    "motionSensor": {
+        "motion": [
+            "active",
+            "inactive"
+        ]
+    },
+    "musicPlayer": {
+        "level": [],
+        "mute": [
+            "muted",
+            "unmuted"
+        ],
+        "status": [],
+        "trackData": [],
+        "trackDescription": [],
+        "playTrack": []
+    },
+    "odorSensor": {
+        "odorLevel": []
+    },
+    "ovenMode": {
+        "ovenMode": [
+            "heating",
+            "grill",
+            "warming",
+            "defrosting"
+        ]
+    },
+    "ovenOperatingState": {
+        "machineState": [
+            "ready",
+            "running",
+            "paused"
+        ],
+        "supportedMachineStates": [],
+        "ovenJobState": [
+            "cleaning",
+            "cooking",
+            "cooling",
+            "draining",
+            "preheat",
+            "ready",
+            "rinsing"
+        ],
+        "completionTime": [],
+        "operationTime": [],
+        "progress": []
+    },
+    "ovenSetpoint": {
+        "ovenSetpoint": []
+    },
+    "powerMeter": {
+        "power": []
+    },
+    "powerSource": {
+        "powerSource": [
+            "battery",
+            "dc",
+            "mains",
+            "unknown"
+        ]
+    },
+    "presenceSensor": {
+        "presence": [
+            "present",
+            "not_present"
+        ]
+    },
+    "rapidCooling": {
+        "rapidCooling": [
+            "off",
+            "on"
+        ]
+    },
+    "refrigerationSetpoint": {
+        "refrigerationSetpoint": []
+    },
+    "relativeHumidityMeasurement": {
+        "humidity": []
+    },
+    "robotCleanerCleaningMode": {
+        "robotCleanerCleaningMode": [
+            "auto",
+            "part",
+            "repeat",
+            "manual",
+            "stop",
+            "map"
+        ]
+    },
+    "robotCleanerMovement": {
+        "robotCleanerMovement": [
+            "homing",
+            "idle",
+            "charging",
+            "alarm",
+            "powerOff",
+            "reserve",
+            "point",
+            "after",
+            "cleaning"
+        ]
+    },
+    "robotCleanerTurboMode": {
+        "robotCleanerTurboMode": [
+            "on",
+            "off",
+            "silence"
+        ]
+    },
+    "signalStrength": {
+        "lqi": [],
+        "rssi": []
+    },
+    "smokeDetector": {
+        "smoke": [
+            "clear",
+            "detected"
+        ]
+    },
+    "soundSensor": {
+        "sound": [
+            "detected",
+            "not_detected"
+        ]
+    },
+    "switch": {
+        "switch": [
+            "on",
+            "off"
+        ]
+    },
+    "switchLevel": {
+        "level": []
+    },
+    "tamperAlert": {
+        "tamper": [
+            "clear",
+            "detected"
+        ]
+    },
+    "temperatureMeasurement": {
+        "temperature": []
+    },
+    "thermostat": {
+        "thermostat": [
+            "setHeatingSetpoint",
+            "setCoolingSetpoint"
+        ],
+        "thermostatOperatingState": []
+    },
+    "thermostatCoolingSetpoint": {
+        "coolingSetpoint": []
+    },
+    "thermostatFanMode": {
+        "thermostatFanMode": [
+            "auto",
+            "circulate",
+            "followschedule",
+            "on"
+        ],
+        "supportedThermostatFanModes": []
+    },
+    "thermostatHeatingSetpoint": {
+        "heatingSetpoint": []
+    },
+    "thermostatMode": {
+        "thermostatMode": [
+            "auto",
+            "cool",
+            "eco",
+            "rush_hour",
+            "emergency_heat",
+            "heat",
+            "off"
+        ],
+        "supportedThermostatModes": []
+    },
+    "thermostatOperatingState": {
+        "thermostatOperatingState": [
+            "cooling",
+            "fan_only",
+            "heating",
+            "idle",
+            "pending_cool",
+            "pending_heat",
+            "vent_economizer"
+        ]
+    },
+    "thermostatSetpoint": {
+        "thermostatSetpoint": []
+    },
+    "threeAxis": {
+        "value": [],
+        "unit": [
+            "mG"
+        ]
+    },
+    "tvChannel": {
+        "tvChannel": []
+    },
+    "ultravioletIndex": {
+        "ultravioletIndex": []
+    },
+    "userInput": {
+        "value": []
+    },
+    "valve": {
+        "valve": [
+            "close",
+            "open"
+        ]
+    },
+    "voltageMeasurement": {
+        "voltage": []
+    },
+    "washerMode": {
+        "washerMode": [
+            "regular",
+            "heavy",
+            "rinse",
+            "spinDry"
+        ]
+    },
+    "washerOperatingState": {
+        "machineState": [
+            "pause",
+            "run",
+            "stop"
+        ],
+        "supportedMachineStates": [],
+        "washerJobState": [
+            "airWash",
+            "cooling",
+            "delayWash",
+            "drying",
+            "finish",
+            "none",
+            "preWash",
+            "rinse",
+            "spin",
+            "wash",
+            "weightSensing",
+            "wrinklePrevent"
+        ],
+        "completionTime": []
+    },
+    "waterSensor": {
+        "water": [
+            "dry",
+            "wet"
+        ]
+    },
+    "windowShade": {
+        "windowShade": [
+            "closed",
+            "closing",
+            "open",
+            "opening",
+            "partially_open",
+            "unknown"
+        ]
+    }
+}

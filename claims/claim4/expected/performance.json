@@ -1,0 +1,24 @@
+[
+    {
+        "num_apps": 5,
+        "avg_rules": "9.29",
+        "conflicts_detector": "0.21/0.11",
+        "conflicts_resolver": "14.69/0.31",
+        "total": "14.90/0.42"
+        "sub_avg_rules": "10.29",
+        "sub_conflicts_detector": "0.26/0.12",
+        "sub_conflicts_resolver": "19.68/0.31",
+        "sub_total": "19.94/0.43",
+    },
+    {
+        "num_apps": 25,
+        "avg_rules": "45.70",
+        "conflicts_detector": "8.66/1.50",
+        "conflicts_resolver": "714.32/1.48",
+        "total": "722.98/2.98"
+        "sub_avg_rules": "46.70",
+        "sub_conflicts_detector": "8.90/1.52",
+        "sub_conflicts_resolver": "742.81/1.53",
+        "sub_total": "751.70/3.05",
+    }
+]

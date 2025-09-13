@@ -1,0 +1,66 @@
+{
+    "accelerationSensor": [
+        "door"
+    ],
+    "alarm": [
+        "alarm"
+    ],
+    "carbonMonoxideDetector": [
+        "monoxide"
+    ],
+    "contactSensor": [
+        "door",
+        "window"
+    ],
+    "doorControl": [
+        "door"
+    ],
+    "illuminanceMeasurement": [
+        "luminance"
+    ],
+    "location": [
+        "location"
+    ],
+    "lock": [
+        "lock"
+    ],
+    "motionSensor": [
+        "motion"
+    ],
+    "powerMeter": [
+        "power"
+    ],
+    "presenceSensor": [
+        "presence"
+    ],
+    "relativeHumidityMeasurement": [
+        "humidity"
+    ],
+    "smokeDetector": [
+        "smoke"
+    ],
+    "switch": [
+        "heater",
+        "door",
+        "fan",
+        "light",
+        "oven",
+        "outlet",
+        "plug"
+    ],
+    "temperatureMeasurement": [
+        "temperature"
+    ],
+    "thermostat": [
+        "heater"
+    ],
+    "thermostatOperatingState": [
+        "heater"
+    ],
+    "valve": [
+        "valve"
+    ],
+    "waterSensor": [
+        "water"
+    ]
+}

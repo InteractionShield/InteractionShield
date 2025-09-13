@@ -1,0 +1,5 @@
+To evaluate the large-scale conflict detection capabilities of InteractionShield, we conducted experiments using a dataset of 6,975 real-world IoT apps. In each experiment, we randomly selected groups of 5 to 25 apps from the dataset and assumed that all physical connections were valid. Each experiment was repeated 2,000 times to calculate the average number of conflicts per group. 
+Our findings show that Contradictory Action is the most frequently detected interaction threat, with deterministic rule conflicts occurring far less often than conditional ones. Among deterministic conflicts, Chain-related conflicts are the most prevalent. We also discovered conflicts caused by Force Action, a type of conflict not previously reported in other studies. Our analysis revealed that approximately 2.27% of all conflicts can be attributed to Force Action.
+
+We plot the average number of rules against the average penalty change, the results show that the penalty change is linearly related to the number of rules. Based on this
+relationship.
