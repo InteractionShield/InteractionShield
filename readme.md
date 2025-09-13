@@ -67,6 +67,18 @@ This artifact contains source code for Section 5 of our paper.
 root@15556b52b000:/InteractionShield#
 ```
 
+### Make the shell script and gradlew executable
+```bash
+chmod +x /InteractionShield/claims/claim1/run*.sh
+chmod +x /InteractionShield/claims/claim2/run*.sh
+chmod +x /InteractionShield/claims/claim3/run*.sh
+chmod +x /InteractionShield/claims/claim4/run*.sh
+
+chmod +x /InteractionShield/artifact/Intermediate/tools/*.sh
+
+chmod +x /InteractionShield/artifact/IoTCOM/FormalAnalyzer/gradlew
+```
+
 ## Artifact Evaluation
 All experiments were executed in Docker under the path `/InteractionShield`
 
@@ -87,7 +99,7 @@ cd claims/claim1/
 ### Claim 2: Comparison of different tools
 This experiment compares IoTCom, IoTSan, and InteractionShield, correspond to Section 5.3 (Figure 2). Because IoTSan and IoTCom are relatively slow, running `run.sh` takes more than 20 hours. To address this, we provide a scaled-down version, `run_fast.sh`, for quicker experimentation.
 
-**Note:** IoTCom requires a very large amount of memory. If running the full version results in an Out of Memory error, please edit line 11 of `claims/claim2/run.sh` and change the value from 50 to a number lower than 20.
+**Note:** IoTCom requires a very large amount of memory. If running the full version results in an Out of Memory error, please edit line 11 of `claims/claim2/run.sh` and change the value from 50 to a number lower than 20. You may still encounter the error “Cannot allocate memory; There is insufficient memory for the Java Runtime Environment to continue.” In that case, you will need to run the experiment on a machine with more memory.
 
 full version:
 ```bash
