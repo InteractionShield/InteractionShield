@@ -1,4 +1,4 @@
-Paper title: **InteractionShield: Harnessing Event Relations for Interaction Threat Detection and Resolution in Smart Homes**
+# **InteractionShield: Harnessing Event Relations for Interaction Threat Detection and Resolution in Smart Homes**
 
 ## Description
 This artifact contains source code for Section 5 of our paper.
@@ -16,6 +16,17 @@ This artifact contains source code for Section 5 of our paper.
     - Claim 3: 15 minutes
     - Claim 4: 10 hours
 - Repository: https://github.com/InteractionShield/InteractionShield
+- Datasets:
+    - Large-scale real-world dataset
+        - The large-scale real-world datasets required for Claims 1, 3, and 4 have already been automatically downloaded during the Docker build process.
+        - Specifically, the Dockerfile at `infrastructure/Dockerfile` places the archive at `/opt/InteractionShield.tar.gz`.
+        - When you execute any of the provided `run.sh` scripts, this dataset is automatically extracted into the following directories:
+            - `/InteractionShield/artifact/InteractionShield/Datasets`
+            - `/InteractionShield/artifact/InteractionShield/Examples`
+            - `/InteractionShield/artifact/InteractionShield/Files`
+    - Randomly Generated SmartApps Dataset
+        - For Claim 2, the required random app dataset is generated during the experiment runs and will be stored under:
+            - `/InteractionShield/artifact/Intermediate/apps`
 - To reproduce Claims:
     - Claim 1:
         - run install.sh
@@ -37,7 +48,7 @@ This artifact contains source code for Section 5 of our paper.
         - [optional] scaled-down version: claims/claim4/run_fast.sh
         - Expected output is in claims/claim4/expected/
 
-## Set Up the Environment (OPTIONAL)
+## Set Up the Environment [OPTIONAL]
 ### Install Software
 - Install [Docker](https://docs.docker.com/engine/install/)
 - X11 forwarding setup for GUI
